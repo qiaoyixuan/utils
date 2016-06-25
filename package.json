@@ -2,7 +2,7 @@
     "name": "kit-utils",
     "version": "0.1.0",
     "description": "sawyer's utils",
-    "main": "dist/kit-utils.js",
+    "main": "dist/kitutils.js",
     "scripts": {
         "build": "webpack --colors --display-error-details --config webpack.config.js"
     },

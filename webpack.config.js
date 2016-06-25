@@ -9,7 +9,9 @@ module.exports = {
     },
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: 'kit-utils.js'
+        filename: 'kitutils.js',
+        library: 'kitutils',
+        libraryTarget: 'umd'
     },
     module: {
         loaders: [
